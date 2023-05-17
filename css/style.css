@@ -60,24 +60,11 @@ header {
 
 #wrapper{
     width: 100%;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     background-color: #FFFFFF; 
     padding: 40px 10px;
 }
 
-/* section{
-    height: 100px;
-    width: 300px;
-    border-radius: 5px;
-    display: flex;    
-    top: 102px;
-    position: absolute;
-    
-} */
-
 h1 {
-    /* font-size: 30px; */
     margin-top: 40px;   
     padding-top: 10px;
     margin-bottom: 30px; 
@@ -86,31 +73,15 @@ h1 {
 h1, h2, h3, h4, h5, h6{
     font-family:'Inter';
     font-style: normal;
-    /* font-weight: 200; */
     line-height: 29px; 
     margin-left: 30px;
-    /* margin-top: 10px;   */
     color: #000000;
-    /* margin-top: 41px; */
 } 
 
 .new {
     font-size: 50px;
     float: right;
 }
-
-/* a .new > h1 :hover {
-    color: darkred;
-}
-
-
-a > h1 > b :hover {
-    color: darkred;
-}
-
-a > p :hover {
-    color: darkred;
-} */
 
 a :hover {
     color: darkred;
@@ -129,30 +100,10 @@ a :hover {
     padding: 10px;
 }
 
-/* .cameras{
-    top: 1100px;
-    left: 34px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding-bottom: 40px;
-    margin-right: 8px;
-} */
-
-/* #Cameras {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding-bottom: 40px;
-} */
-
-
 .event > a{
-    /* border-radius: 5px; */
     display: flex;    
     margin-top: 45px;
-    /* margin-left: 30px; */
-    /* flex-direction: row;     */
+
 }
 
 .camera > a {
@@ -169,42 +120,15 @@ a > img {
 } 
 
 a > p  {
-    /* width: 175px;
-    height: 39px;
-    left: 281px; */
     margin-left: 10px;
     margin-top: 7px;
-    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 24px;
-    
     color: #000000;
 } 
-
-/* .play-button {
-    background: url("../image/movie-player-button.png");
-    height: 28px;
-    width: 28px;
-    left: 120px;
-    top: 80px;
-} */
-
-/* .container
-{
-    display: flex;
-} */
-
-/* section#aside-and-boxes
-{
-    display: flex;
-    justify-content: space-between;
-} */
-/* #wrapper > #form {
-    padding: 100px;
-} */
 
 #wrapper > #class {
     padding: 0px 10px;
@@ -220,7 +144,6 @@ form {
 }
 
 li > a {
-    /* margin: 0px; */
     font-family: var(--bs-font-sans-serif);
     font-size: 1rem;
     font-weight: 400;
@@ -228,7 +151,6 @@ li > a {
     color: rgb(33, 37, 41);
     background-color: rgb(255, 255, 255);
     text-size-adjust: 100%;
-    /* -webkit-tap-highlight-color: transparent; */
 }
 
 .breadcrumb-item+.breadcrumb-item {
@@ -238,10 +160,6 @@ li > a {
 .breadcrumb-item > a :hover {
     color: darkred;
 }
-
-/* li > a :hover {
-    color: darkred;
-} */
 
 .row {
     margin-top: 15px;
@@ -255,7 +173,6 @@ li > a {
 
 .container {
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -264,19 +181,10 @@ li > a {
 
 .video {
     display: flex;
-    /* position: relative; */
-    /* flex-wrap: wrap; */
-    /* flex-direction: column;
-    justify-content: space-evenly; */
-    /* align-items: center; */
     padding-bottom: 40px;
 }
 
 .video > img {
-    /* width: 800px;
-    height: 450px; */
-    /* width: 75%;
-    height: auto; */
     width: 800px;
     height: auto;
 }
@@ -287,14 +195,10 @@ li > a {
     bottom: 30px;
     left: 25px;
     font-size: 20px;
-    /* left: 10px;
-    top: 10px; */
 }
 
 .camera {
     position: relative;
-    /* display: flex; */
-    
 }
 
 .play-button {
@@ -303,20 +207,16 @@ li > a {
     height: 28px;
     width: 28px;
     left: 45%;    
-
-    /* margin-left: 110px; */
     top: 90px;
 }
 
 
 
-/* navbar */
 #navbar {
     overflow: hidden;
     background-color: #333;
 }
   
-  /* Navbar links */
 #navbar a {
     float: left;
     display: block;
@@ -327,19 +227,16 @@ li > a {
     font-size: 20px;;
 }
   
-/* Page content */
 .content {
     padding: 16px;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
     padding-top: 60px;
 }
@@ -390,13 +287,6 @@ li > a {
         padding: 100px;
     }
 
-    /* .camera > a {
-        flex-direction: row;
-    } */
-
-    /* .container {
-        padding-left: 0;
-    } */
     .video > img {
         width: 400px;
     }
